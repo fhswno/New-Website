@@ -223,7 +223,7 @@ footer p {
     font-size: 1.3rem;
 }
 
-/* Media Query */
+/* Media Queries */
 @media (max-width: 576px) {
     .greeting {
         margin-top: 12%;
@@ -259,5 +259,11 @@ footer p {
 
     #message-cta {
         padding: 10% 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-brand {
+        font-size: 1.8rem;
     }
 }
