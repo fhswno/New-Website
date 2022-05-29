@@ -266,4 +266,8 @@ footer p {
     .navbar-brand {
         font-size: 1.2rem;
     }
+
+    .carousel-item img {
+        width: 50%;
+    }
 }
