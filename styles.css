@@ -42,6 +42,10 @@ nav {
 .title-image {
     width: 100%;
 }
+
+.title-text a {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤠</text></svg>") 16 0,auto;
+}
   
 .greeting {
     font-weight: bold;
@@ -173,6 +177,7 @@ nav {
     text-decoration: none;
     color: black;
     margin: 3% 0;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎯</text></svg>") 16 0,auto;
 }
 
 .contact-container a:hover {
@@ -204,6 +209,7 @@ nav {
     text-decoration: none;
     color: black;
     background-color: white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👋</text></svg>") 16 0,auto;
 }
 
 #message-cta a:hover {
@@ -211,16 +217,42 @@ nav {
     color: white;
 }
 
+/* Bonus */
+
+.bonus-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 7% 0 6% 0;
+    color: white;
+}
+
+.bonus-title span {
+    background-color: #00DC4A;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
 /* Footer */
 
 footer {
     padding: 3% 0;
     margin-top: 2%; 
+    background-color: #3EA6FD;
 }
 
 footer p {
     font-weight: 700;
     font-size: 1.3rem;
+    color: white;
+}
+
+#bonus-portion a {
+    text-decoration: none;
+}
+
+#bonus-portion a:hover {
+    color: #00DC4A;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🙌</text></svg>") 16 0, auto;
 }
 
 /* Media Queries */
@@ -245,6 +277,10 @@ footer p {
         font-size: 2.4rem;
     }
 
+    .bonus-title {
+        font-size: 2.3rem;
+    }
+
     #cta {
         margin-top: 12%;
     }
@@ -259,6 +295,22 @@ footer p {
 
     #message-cta {
         padding: 10% 0;
+    }
+
+    .bonus-title {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 10% 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    #bonus-portion {
+        padding: 5% 0;
     }
 }
 
